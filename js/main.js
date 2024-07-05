@@ -1,5 +1,11 @@
-$( document ).ready(function() {
-    $('#btn').click(function() {
-        window.alert("DID YOU JUST CLICK ME?!");
-    });
-});
+let array = [];
+
+for(let i =  0; i < 10; i++){
+    array.push(i);
+}
+
+console.log(array);
+
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
