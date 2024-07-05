@@ -1,11 +1,18 @@
-let array = [];
+let Monke;
 
-for(let i =  0; i < 10; i++){
-    array.push(i);
+function preload (){
+    Monke = loadModel('/models/amongus', true);
 }
 
-console.log(array);
+function setup(){
+    let canv = createCanvas(800, 800, WEBGL);
+    canv.parent("pho");
+}
 
-for(let i = 0; i < 10; i++){
-    console.log(i);
+function draw(){
+    background(255);
+    orbitControl();
+    normalMaterial();
+    model(amongus);
+
 }
