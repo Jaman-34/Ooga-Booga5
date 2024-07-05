@@ -1,7 +1,7 @@
-let Monke;
+let OBJ
 
 function preload (){
-    Monke = loadModel('/models/amongus', true);
+    OBJ = loadModel('./models/amongus.obj', true);
 }
 
 function setup(){
@@ -13,6 +13,6 @@ function draw(){
     background(255);
     orbitControl();
     normalMaterial();
-    model(amongus);
+    model(OBJ);
 
 }
