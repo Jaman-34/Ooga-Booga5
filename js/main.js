@@ -1,7 +1,7 @@
-let OBJ
+let Monke;
 
 function preload (){
-    OBJ = loadModel('./models/amongus.obj', true);
+    Monke = loadModel('./models/amongus_upsidedown.obj', true);
 }
 
 function setup(){
@@ -13,6 +13,6 @@ function draw(){
     background(255);
     orbitControl();
     normalMaterial();
-    model(OBJ);
+    model(Monke);
 
 }
