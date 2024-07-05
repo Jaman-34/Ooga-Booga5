@@ -1,7 +1,7 @@
 let Monke;
 
 function preload (){
-    Monke = loadModel('./models/amongus_upsidedown.obj', true);
+    Monke = loadModel('./models/amongusupsidedown.obj', true);
 }
 
 function setup(){
